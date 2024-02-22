@@ -1,0 +1,45 @@
+body {
+    background-color: #ff66cc; /* Розово-красный фон */
+    color: white; /* Белый текст для контраста */
+}
+
+h2 {
+    color: #ff0066; /* Оттенок красного для заголовка */
+    text-align: center;
+    padding-top: 180px;
+    margin-bottom: 0; /* Убираем отступ снизу */
+}
+
+form {
+    text-align: center;
+    padding-top: 70px;
+}
+
+/* Стили для формы */
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff99cc; /* Оттенок розового для текстовых полей */
+    color: #fff; /* Белый текст для контраста */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff0066; /* Ярко-красная кнопка */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #ff3385; /* При наведении - светло-красный оттенок */
+}
